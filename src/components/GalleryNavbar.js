@@ -29,7 +29,7 @@ const GalleryNavbar = ({ setSearchTerm, onSearch }) => {
         </form>
         <ul>
           <li></li>
-          <li>About Galleria</li>
+          <li></li>
         </ul>
       </nav>
     </div>
