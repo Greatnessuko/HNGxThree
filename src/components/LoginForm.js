@@ -38,13 +38,13 @@ function Form() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-transparent">
     <div className="bg-white p-8 rounded shadow-md md:w-96 w-full">
-      <h2 className="text-2xl font-semibold text-center mb-6">Hello! Welcome to Galleria</h2>
+    <h2 className="text-2xl font-semibold text-center mb-3">Welcome to <span className="text-green-600"> Galleria</span></h2>
       <ToastContainer /> {/* Add the ToastContainer component */}
-      <p className="text-2xl font-semibold">Login here</p>
+      <p className="text-1xl ">Login here</p>
       <form className="mx-auto max-w-lg rounded-lg border" onSubmit={handleSubmit}>
         <div className="flex flex-col gap-4 p-4 md:p-8">
           <div>
-            <label htmlFor="email" className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+            <label htmlFor="email" className="mb-2 font-bold text-green-600 inline-block text-sm text-gray-800 sm:text-base">
               Email
             </label>
             <input
@@ -58,7 +58,7 @@ function Form() {
             />
           </div>
           <div>
-            <label htmlFor="password" className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+          <label htmlFor="password" className="mb-2 font-bold text-green-600 inline-block text-sm  sm:text-base">
               Password
             </label>
             <input
@@ -77,7 +77,7 @@ function Form() {
               <div className="spinner"></div>
             ) : (
               <button
-                className="block rounded-lg bg-green-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-gray-300 transition duration-100 hover:bg-green-700 focus-visible:ring active:bg-green-600 md:text-base"
+                className="block rounded-lg bg-green-800 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-gray-300 transition duration-100 hover:bg-green-700 focus-visible:ring active:bg-green-600 md:text-base"
                 type="submit"
               >
                 Continue
