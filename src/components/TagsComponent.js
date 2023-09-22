@@ -20,8 +20,8 @@ const TagsComponent = ({ setSelectedTag, fetchImagesByTag}) => {
         All
       </div>
       <div
-        className={`tag ${activeTag === "Animation" ? "active" : ""}`}
-        onClick={() => handleTagClick("Animation")}
+        className={`tag ${activeTag === "Animals" ? "active" : ""}`}
+        onClick={() => handleTagClick("Animals")}
       >
         Animals
       </div>
